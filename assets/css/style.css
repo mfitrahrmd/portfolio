@@ -1,0 +1,67 @@
+@import url(./variables.css);
+@import url(./global.css);
+
+/* {Nav */
+nav {
+}
+/* Nav} */
+
+/* {Banner Section */
+#banner {
+  background: url(../img/home-banner.png);
+  background-size: cover;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+/* Banner Section} */
+
+/* {About Section */
+
+/* About Section} */
+
+/* {Services Section */
+/* Services Section} */
+
+/* {Projects Section */
+#projects {
+  padding: 4rem 0;
+}
+
+#projects .button-group button {
+  background: transparent;
+  border: none;
+  font: normal 500 16px/130px var(--roboto);
+  text-transform: uppercase;
+}
+
+#projects .our-project > .title h4 {
+  font: normal 700 25px/12px var(--roboto);
+}
+
+#projects .our-project .img a:hover {
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+/* Projects Section} */
+
+/* {Footer */
+#footer {
+  text-align: center;
+  padding: 2rem 0;
+}
+#footer .icons > a {
+  margin: 0 2rem;
+  font-size: 1.5rem;
+  color: #b1afaf;
+}
+#footer .icons > a:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+/* Footer} */
